@@ -4,4 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/ryanegan/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp typefaces/* $DEPLOYPATH/typefaces
+    - /bin/cp typefaces/* /home/ryanegan/public_html/typefaces
