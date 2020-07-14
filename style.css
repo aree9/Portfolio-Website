@@ -1,11 +1,61 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url('typefaces/Manrope-ExtraLight.woff2') format('woff2');
+  src: url('typefaces/Manrope-ExtraLight.woff') format('woff');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('typefaces/Manrope-Light.woff2') format('woff2');
+  src: url('typefaces/Manrope-Light.woff') format('woff');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('typefaces/Manrope-Regular.woff2') format('woff2');
+  src: url('typefaces/Manrope-Regular.woff') format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('typefaces/Manrope-Medium.woff2') format('woff2');
+  src: url('typefaces/Manrope-Medium.woff') format('woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('typefaces/Manrope-SemiBold.woff2') format('woff2');
+  src: url('typefaces/Manrope-SemiBold.woff') format('woff');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('typefaces/Manrope-Bold.woff2') format('woff2');
+  src: url('typefaces/Manrope-Bold.woff') format('woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('typefaces/Manrope-ExtraBold.woff2') format('woff2');
+  src: url('typefaces/Manrope-ExtraBold.woff') format('woff');
+  font-weight: 800;
+}
+
 .maino {
-  height: 100vh
+  height: 100vh;
+  font-family: 'Manrope', sans-serif;
 }
 
 .colour-pink {
-  color: #EF476F
+  color: #EF476F;
 }
 
 .colour-body-grey{
-  color: #58595C
+  color: #58595C;
 }
